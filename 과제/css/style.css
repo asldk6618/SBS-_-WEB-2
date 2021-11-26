@@ -1,0 +1,87 @@
+*{margin: 0px; padding: 0;}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid #ddd; */
+}
+
+section.notice {
+    padding: 80px 0;
+}
+/* 타이틀 */
+.page-title{ margin-bottom: 60px;}
+.page-title h3 { font-size: 28px; color: #333333; font-weight: bold; text-align: center;}
+
+/* 검색영역 */
+.board-search {padding: 15px 0; background-color: lightsteelblue;}
+.board-search .search-inner {margin: 0 auto; width: 50%;}
+.board-search .search-inner input {
+    width: 70%;
+    height: 40px;
+    font-size: 14px;
+    padding: 7px 14px;
+    border: 1px solid lightsteelblue;
+    box-sizing: border-box;
+    /* position: relative; */ /*더 완벽한 높이 맞춤을 위해서*/
+}
+.board-search .search-inner .btn {
+    width: 120px;
+    height: 40px;
+    padding: 7px 14px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: rgb(83, 98, 131);
+    color: #fff;
+
+    cursor: pointer;
+    border: 1px solid transparent;
+    /* position: absolute; */
+}
+
+/* 목록(표) */
+.board-list
+.board-table { font-size: 13px; width: 100%; border-top: 1px solid lightsteelblue; border-bottom: 1px solid lightsteelblue;}
+.board-table tr{ height: 50px;}
+/* 홀수행만 색깔넣기*/
+.board-table tbody tr:nth-child(2n-1){ background-color: rgb(221, 229, 241);} 
+.board-table tbody tr:hover { background-color: rgb(174, 198, 230);}
+.board-table th{ text-align: center;}
+.board-table tbody th{ 
+    padding-left: 30px; 
+    padding-right: 14px; 
+    border-top: 1px solid #eee;
+    text-align: left;
+}
+.board-table tbody td{ border-top: 1px solid #eee; text-align: center;}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* 아래 페이지 숫자 */
+.container { 
+    width: 1200px; 
+    height: 50px;
+    margin-top: 30px; 
+    text-align: center;
+}
+
+.container .item { 
+    border: 1px solid #d6d6d6;
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.container .item:hover { 
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}

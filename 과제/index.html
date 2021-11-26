@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제, 공지사항</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--전체잡을 수있는 랩-->
+    <div class="wrap">
+
+        <!-- 공지사항 전체 틀-->
+        <section class="notice">
+
+            <!--타이틀 (공지사항글씨)-->
+            <div class="page-title">
+                <h3>공지사항</h3>
+            </div>
+
+            <!-- 검색영역-->
+            <div class="board-search">
+                <div class="search-inner">
+                    <form action="/board/writer" method="post">
+                        <input type="text" name="keyword" placeholder="검색어를 작성해주세요." id="search"/>
+                        <button type="submit" class="btn">검색</button>
+                     </form>
+                </div>
+            </div>    
+
+            <!-- 표(목록영역)-->
+            <div class="board-list">
+
+            <table class="board-table">
+                <thead>
+                   <tr>
+                       <th>번호</th>
+                       <th>제목</th>
+                       <th>등록일</th>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <th>
+                            <a href="#">[공지사항] 여러분 제발 만족도 평가 해주세요:)</a>
+                        </th>
+                        <td>2021.11.26</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <th>
+                            <a href="#">웹 3 과정도 기대해주세요!!!</a>
+                        </th>
+                        <td>2021.11.20</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <th>
+                            <a href="#">웹 포트폴리오 수업도 열심히 준비되고 있습니다!!!</a>
+                        </th>
+                        <td>2021.11.10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <th>
+                            <a href="#">이는 무엇을 소금이라 청춘은 봄바람이다.</a>
+                        </th>
+                        <td>2021.11.5</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>5</td>
+                        <th>
+                            <a href="#">풀이 별 하나에 북간도에 밤을 마디씩 듯합니다.</a>
+                        </th>
+                        <td>2021.10.28</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <th>
+                            <a href="#">이것이야말로 그들은 설레는 간에 되는 곧 황금시대다!!</a>
+                        </th>
+                        <td>2021.10.22</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <th>
+                            <a href="#">이 별과 그러므로 행복스럽고 따뜻한 굳세게 끓는 아름다우냐?</a>
+                        </th>
+                        <td>2021.10.16</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <th>
+                            <a href="#">과실이 두기 없으면 고행을 얼음에 있다. </a>
+                        </th>
+                        <td>2021.10.2</td>
+                    </tr>
+                        
+                </tbody>
+            </table>
+          </div>  
+
+          <!--번호 차트-->
+          <div class="container">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="item">5</div>
+         </div>
+        </div>
+
+          </div>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -127,3 +127,72 @@ footer {
 footer p {
     font-size: 1.1rem;
 }
+
+/* 모바일 버전 -----------------------------------*/
+@media (max-width : 750px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .page-header {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    /* HEADER */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    /* HOME */
+    .home-content {
+        margin-top: 20%;
+    }
+
+    /* blog */
+    .blog-contents {
+        flex-direction: column;
+    }
+    #blog .page-title {
+        margin-top: 30px;
+    }
+    article,
+    aside {
+        width: 100%;
+    }
+    aside {
+        margin-top: 60px;
+    }
+    .post-info {
+        margin-bottom: 30px;
+    }
+    .post-date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    .post-date span {
+        font-size: 0.875rem;
+        padding-top: 2px;
+    }
+    .post-title {
+        font-size: 2rem;
+    }
+    .post-cate {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+    .post-title,
+    .post-cate {
+        margin-left: 80px;
+    }
+
+
+}
+    
+    
+ 
