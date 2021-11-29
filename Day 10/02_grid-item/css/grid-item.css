@@ -2,6 +2,7 @@
     width: 1200px;
     margin: 0 auto;
     border: 3px dashed hotpink;
+    margin-bottom: 500px;
     padding-bottom: 500px;
 }
 
@@ -64,13 +65,12 @@
     grid-template-areas: 
     'header header header header'
     'aside aside main main'
-    'footer footer footer footer';
+    'footer footer footer footer'
+    ;
 }
 
-
-/* 수정해야함 이상함 */
 .grid-area-name .header { grid-area: header;}
-.grid-area-name .aside { grid-area: asdie;}
+.grid-area-name .aside { grid-area: aside;}
 .grid-area-name .main { grid-area: main;}
 .grid-area-name .footer { grid-area: footer;}
 
@@ -89,7 +89,6 @@
 .align-self .align-end{align-self: end;}
 .align-self .align-stretch{align-self: stretch; height: auto;}
 
-/* 수정 */
 .justify-self {
     grid-template-columns: auto auto;
     grid-template-rows: 200px 200px;
